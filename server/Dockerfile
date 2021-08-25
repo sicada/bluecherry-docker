@@ -1,7 +1,7 @@
 # set a base image with environment to build from
 FROM ubuntu:20.04 AS baseos
 
-ARG BLUECHERRY_GIT_BRANCH_TAG=v3.0.4
+ARG BLUECHERRY_GIT_BRANCH_TAG=v3.0.6
 
 
 # ---------------------------------------------------------------------------

@@ -16,7 +16,8 @@ services:
       TZ: $TZ
 
   bluecherry:
-    image: sicadaco/bluecherry-server:latest
+    image: sicadaco/bluecherry-server:3.0.6
+    # image: bc-server
     container_name: bc-server
     cap_add:
       - NET_BIND_SERVICE
